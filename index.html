@@ -13,26 +13,72 @@
     />
   </head>
   <body>
-    <header class="header">
+    <div class="header">
+      <div class="header__inner">
+        <div class="logo">
+          <a class="logo__1" href="#">
+            <img src="images/logo1.svg" alt="" class="logo__svg1" />
+          </a>
+          <a class="logo__2" href="#">
+            <img src="images/logo2.svg" alt="" class="logo__svg2" />
+          </a>
+          <a class="logo__3" href="#">
+            <img src="images/logo3.svg" alt="" class="logo__svg3" />
+          </a>
+        </div>
+        <div class="heading">
+          <h5 class="heading__1">Web3 Cloud</h5>
+          <h6 class="heading__2">by primelab</h6>
+        </div>
+      </div>
+    </div>
+    <section class="accaunt">
       <div class="container">
-        <div class="header__inner">
-          <div class="logo">
-            <a class="logo__1" href="#">
-              <img src="images/logo1.svg" alt="" class="logo__svg1" />
-            </a>
-            <a class="logo__2" href="#">
-              <img src="images/logo2.svg" alt="" class="logo__svg2" />
-            </a>
-            <a class="logo__3" href="#">
-              <img src="images/logo3.svg" alt="" class="logo__svg3" />
-            </a>
+        <div class="accaunt__inner">
+          <div class="account__dscr">
+            <h1 class="account__create">Create an Account</h1>
+            <h3 class="account__create-dscr">
+              Store, edit and share your files using the power of the blockchain
+              for free.
+            </h3>
           </div>
-          <div class="heading">
-            <h5 class="heading__1">Web3 Cloud</h5>
-            <h6 class="heading__2">by primelab</h6>
+          <div class="account__choice">
+            <input type="text" class="account__choice-code" placeholder="+1" />
+            <input
+              type="text"
+              class="account__choice-email"
+              placeholder="Ex. 3373788383"
+            />
           </div>
         </div>
       </div>
-    </header>
+    </section>
+    <section class="signin">
+      <div class="container">
+        <div class="signin__inner">
+          <div class="signin__continue">
+            <button class="signin__submit" type="submit">Continue</button>
+          </div>
+          <p class="signin__text">
+            by clicking continue you must agree to Primelabs
+            <a class="signin__link" href="#">Terms & Conditions</a> and
+            <a class="signin__link" href="#">Privacy Policy</a>
+          </p>
+          <hr />
+          <h2 class="signin__create">Sign In</h2>
+          <h4 class="signin__heading">
+            Sign in with an existing primelab account
+          </h4>
+          <span class="account__id">Account ID</span>
+          <div class="account__input">
+            <input type="text" class="accountid-reg" placeholder="johnd" />
+            <input type="text" class="accountid-reg1" placeholder=".near" />
+          </div>
+          <div class="signin__continue">
+            <button class="signin__submit" type="submit">Sign In</button>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
